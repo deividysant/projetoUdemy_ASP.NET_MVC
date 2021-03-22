@@ -19,7 +19,7 @@ namespace SalesWebMVC.Models
         {
         }
 
-        public Seller(int id, string name, string email, DateTime bithDay, double baseSalary, Department department, HashSet<SalesRecord> sales)
+        public Seller(int id, string name, string email, DateTime bithDay, double baseSalary, Department department)
         {
             Id = id;
             Name = name;
